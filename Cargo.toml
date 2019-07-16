@@ -10,6 +10,8 @@ repository = "https://github.com/hacolab/wordcount"
 categories = ["command-line-utilities"]
 keywords = ["example", "frequency", "text"]
 
+exclude = ["text.txt", "tests/*"]
+
 [badges]
 appveyor = { repository = "hacolab/wordcount" }
 travis-ci = { repository = "hacolab/wordcount" }
